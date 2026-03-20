@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# Expo and Mobile
+.expo/
+android/
+ios/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS and IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Python Build
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Misc
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.pem
+*.tsbuildinfo
